@@ -1,0 +1,25 @@
+{
+  "name": "korolish",
+  "version": "0.0.34",
+  "author": "druidriga",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/druidriga/korolish.git"
+  },
+  "main": "test.js",
+  "scripts": {
+    "dev": "node test.js"
+  },
+  "dependencies": {
+    "@binance/connector": "^3.0.0-rc.1",
+    "@chainsafe/dappeteer": "^5.2.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@nestjs/axios": "^2.0.0",
+    "@nestjs/typeorm": "^9.0.1",
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "class-transformer": "^0.5.1"
+  },
+  "keywords": []
+}
